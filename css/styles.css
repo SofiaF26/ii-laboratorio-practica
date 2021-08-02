@@ -82,6 +82,16 @@ h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   line-height: 1.2;
 }
 
+.fotocv{
+  vertical-align: center;
+  width: 12rem;
+  padding-top: 5rem;
+}
+
+.mb-12{
+    margin-bottom: 3rem !important;
+}
+
 h1, .h1 {
   font-size: calc(1.375rem + 1.5vw);
 }
@@ -1937,6 +1947,9 @@ progress {
     --bs-gutter-y: 3rem;
   }
 }
+
+
+
 .table {
   --bs-table-bg: transparent;
   --bs-table-accent-bg: transparent;
@@ -4405,6 +4418,10 @@ textarea.form-control-lg {
   color: #fff;
 }
 
+.list-group-docs{
+  padding-bottom: 5rem;
+}
+
 .card {
   position: relative;
   display: flex;
@@ -4442,6 +4459,7 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
+  padding-bottom: 2rem;
 }
 
 .card-title {
@@ -4699,6 +4717,10 @@ textarea.form-control-lg {
   display: flex;
   padding-left: 0;
   list-style: none;
+}
+
+.page-section{
+  background-color: rgba(142, 148, 146, 0.103);
 }
 
 .page-link {
@@ -5032,9 +5054,9 @@ textarea.form-control-lg {
 }
 .list-group-item.active {
   z-index: 2;
-  color: #fff;
-  background-color: #64a19d;
-  border-color: #64a19d;
+  color: #000;
+  background-color: #e4ec6e;
+  border-color: #e4ec6e;
 }
 .list-group-item + .list-group-item {
   border-top-width: 0;
@@ -7098,6 +7120,7 @@ textarea.form-control-lg {
 .mx-auto {
   margin-right: auto !important;
   margin-left: auto !important;
+  
 }
 
 .my-0 {
@@ -7515,6 +7538,7 @@ textarea.form-control-lg {
   text-align: left !important;
   padding-top: 2rem;
   padding-bottom: 1rem;
+  font-family: "Oswald", sans-serif;
 }
 
 .text-decoration-none {
@@ -7609,7 +7633,8 @@ textarea.form-control-lg {
 }
 
 .text-white-50 {
-  color: rgba(255, 255, 255, 0.5) !important;
+  color: rgba(255, 255, 255, 0.856) !important;
+  padding-bottom: 2rem;
 }
 
 .text-reset {
@@ -11149,8 +11174,7 @@ body {
 
 .btn {
   box-shadow: 0 0.1875rem 0.1875rem 0 rgba(0, 0, 0, 0.1) !important;
-  padding: 1.25rem 2rem;
-  font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  padding: 1rem 1rem;
   font-size: 80%;
   text-transform: uppercase;
   letter-spacing: 0.15rem;
@@ -11170,7 +11194,7 @@ body {
   background-size: cover;
 }
 .masthead h1, .masthead .h1 {
-  font-family: "DM Sans", sans-serif;
+  font-family: "Oswald", sans-serif;
   font-size: 2.5rem;
   line-height: 2.5rem;
   letter-spacing: 1rem;
@@ -11206,12 +11230,22 @@ body {
 }
 
 .about-section {
-  padding-top: 10rem;
+  padding-top: 8rem;
   padding-top: auto;
   background: linear-gradient(to bottom, #000 0%, rgba(197, 175, 103, 0.76) 65%, rgba(0, 0, 0, 0.8) 100%), url("../assets/img/aboutme.png");
 }
 .about-section p {
   margin-bottom: 5rem;
+}
+
+.reflexion-section {
+  padding-top: 10rem;
+  padding-bottom: 5rem;
+  background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.76) 65%, rgba(0, 0, 0, 0.877) 100%), url("../assets/img/reflexion-section.png");
+}
+
+.card2{
+  display:block;
 }
 
 .projects-section {
@@ -11224,7 +11258,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #d1b279;
   }
 }
 .projects-section .project-text {
@@ -11236,7 +11270,7 @@ body {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #7c1f1f;
     border-width: 0.25rem;
     width: 30%;
   }
@@ -11298,6 +11332,6 @@ body {
   color: #fff;
 }
 
-.footer {
+.footer{
   padding: 5rem 0;
 }

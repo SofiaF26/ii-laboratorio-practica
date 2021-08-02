@@ -15,7 +15,11 @@
         <!-- title link google font-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,700&display=swap" rel="stylesheet"> 
+        <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@1,700&display=swap" rel="stylesheet">
+        <!-- aboutme link google font-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap" rel="stylesheet">
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
     </head>
@@ -30,7 +34,9 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item"><a class="nav-link" href="#about">Acerca de mí</a></li>
-                        <li class="nav-item"><a class="nav-link" href="#projects">Objetivos anuales</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#documents">Documentación</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Preguntas Intro.</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#projects">Proyectos</a></li>
                         <li class="nav-item"><a class="nav-link" href="#signup">Contacto</a></li>
                     </ul>
                 </div>
@@ -42,9 +48,9 @@
                 
                 <div class="d-flex justify-content-center">
                     <div class="text-center">
+                        <img class="fotocv mb-12" src="assets/imagenyo.png" alt="...">
                         <h1 class="mx-auto my-0 text-uppercase">Sofía Fuentes</h1>
                         <h2 class="text-white-50 mx-auto mt-2 mb-5">- Estudiante de programación -</h2>
-                        <a class="btn btn-primary" href="#about">Acerca de mi</a>
                     </div>
                 </div>
             </div>
@@ -56,8 +62,11 @@
                     <div class="col-lg-8">
                         <h2 class="text-white mb-4">Acerca de mí</h2>
                         <p class="text-white-50">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis itaque, molestiae mollitia, placeat.
-                            <a href=#!></a>
+                            Soy una persona
+                            entregada a mis labores.
+                            Soy una persona versátil,
+                            proactiva, perfeccionista y
+                            creativa.
                         </p>
                     </div>
                 </div>
@@ -67,14 +76,20 @@
         <section class="page-section" id="documents">
             <div class="container">
                 <div class="text-black-docs">
-                    <h2 class="text-black-docs">Documentacion</h2>
-                </div>
-                <div class="card" style="width: 18rem;">
-                    <img src=".../assets/img/bootstrap.png" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5 class="card-title">Card title</h5>
-                      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                      <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <h2 class="text-black-docs">Documentación</h2>
+                    <div class="list-group-docs">
+                        <a href="https://getbootstrap.com/" class="list-group-item list-group-item-action active" aria-current="true">
+                          Bootstrap5 | Componentes, uso de documentación y plantillas.
+                        </a>
+                        <a href="#" class="list-group-item list-group-item-action">
+                            Github Pages | Repositorios y páginas con registro de versiones.
+                        </a>
+                        <a href="https://startbootstrap.com/" class="list-group-item list-group-item-action">
+                            StartBootstrap | Plantillas de Bootstrap sugeridas.
+                        </a>
+                        <a href="https://www.w3schools.com/html/" class="list-group-item list-group-item-action">
+                            W3Schools | w3Schools HTML + CSS.
+                        </a>
                     </div>
                 </div>
             </div>
@@ -88,20 +103,20 @@
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
                             <h4>Preguntas introductorias</h4> <br>
-                            <p class="text-black-50 mb-0">II.3.1.¿Qué es un framework?</p>
-                            <p> lorem ipsum dolor sit amet. </p> <br>
-                            <p class="text-black-50 mb-0">II.3.2.¿Qué es Bootstrap5 y cuál es su origen?</p> 
-                            <p> lorem ipsum dolor sit amet. </p> <br>
+                            <p class="text-black-50 mb-0">II.3.1. ¿Qué es un framework?</p>
+                            <p> Un Framework es una estructura base utilizada como punto de partida para elaborar un proyecto con objetivos específicos.</p> <br>
+                            <p class="text-black-50 mb-0">II.3.2. ¿Qué es Bootstrap5 y cuál es su origen?</p> 
+                            <p> Bootstrap es un framework de código abierto disponible para HTML, CSS y JS. Bootstrap fue desarrollado por Mark Otto y Jacob Thornton.</p> <br>
                             <p class="text-black-50 mb-0">II.3.3.¿Qué es diseño responsive en páginas web?</p> 
-                            <p> lorem ipsum dolor sit amet. </p> <br>
-                            <p class="text-black-50 mb-0">II.3.4.¿Qué son las Github pages?</p> 
-                            <p> lorem ipsum dolor sit amet. </p> <br>
-                            <p class="text-black-50 mb-0">II.3.5.¿Cuál es la diferencia entre elemento y componente web?</p> 
-                            <p> lorem ipsum dolor sit amet. </p> <br>
+                            <p> Redimensión de los elementos en una página web para que sean colocados de manera que se adapten al tamaño de cada dispositivo, permitiendo así una visualización adecuada.</p> <br>
+                            <p class="text-black-50 mb-0">II.3.4. ¿Qué son las Github pages?</p> 
+                            <p> Plataforma que permite subir repositorios de código para almacenarlo en el sistema de control de versiones Git.</p> <br>
+                            <p class="text-black-50 mb-0">II.3.5. ¿Cuál es la diferencia entre elemento y componente web?</p> 
+                            <p> Los componentes web son un paquete de diferentes tecnologías que te permiten crear elementos personalizados reutilizables y los elementos </p> <br>
                             <p class="text-black-50 mb-0">II.3.6 ¿Cuál es la importancia de documentar o comentar código?</p>
-                            <p> lorem ipsum dolor sit amet. </p> <br>
+                            <p> Para guiarnos al momento de documentar nuevo código y tener noción de donde y qué estamos trabajando </p> <br>
                             <p class="text-black-50 mb-0">II.3.7 ¿Por qué existe la sección de atribución en un sitio web?</p> 
-                            <p> lorem ipsum dolor sit amet. </p> <br>
+                            <p> Para dar los respectivos créditos y reconocimientos a los creadores. </p> <br>
                             <a href="https://twitter.com/shato_illust/status/1269639662353575941/photo/1">Autor imagen</a>
                         </div>
                     </div>
@@ -113,8 +128,19 @@
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
-                                    <h4 class="text-white">Idiomas</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nam similique error mollitia, nesciunt incidunt iure itaque autem!.</p>
+                                    <h4 class="text-white">Idiomas</h4> <br>
+                                    <p class="mb-0 text-white-50">
+                                        Español: natal <br>
+                                        Inglés: 60% <br>
+                                    </p>
+                                    <h4 class="text-white">Idiomas por aprender</h4> <br>
+                                    <p class="mb-0 text-white-50">
+                                        Ruso A2<br>
+                                        Chino Mandarín A2<br>
+                                        Coreano A2<br>
+                                        Italiano B2<br>
+                                        Frances B2<br>
+                                    </p>
                                     <hr class="d-none d-lg-block mb-0 ms-0" />
                                 </div>
                             </div>
@@ -128,12 +154,38 @@
                         <div class="bg-black text-center h-100 project">
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
-                                    <h4 class="text-white">Estudios</h4>
-                                    <p class="mb-0 text-white-50">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab doloribus in illum veritatis repellat veniam ea consectetur.</p>
+                                    <h4 class="text-white">Estudios</h4> <br>
+                                    <p class="mb-0 text-white-50">
+                                        Instituto María Auxiliadora <br>
+                                        Bachillerato en Ciencias y Letras con Orientación en
+                                        Computación | 2020 - 2021 <br>
+                                        
+                                    </p>
+                                    <h4 class="text-white">Otros títulos o estudios</h4> <br>
+                                    <p class="mb-0 text-white-50">
+                                        Taller de Ciberseguridad (2020) – UNDEF Facultad
+                                        de Ingeniería del Ejército. <br>
+                                        Curso de programación en Java básico (2020) –
+                                        USAC<br>
+                                        
+                                    </p>
                                     <hr class="d-none d-lg-block mb-0 me-0" />
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Reflexión-->
+        <section class="reflexion-section text-center" id="about">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-lg-8">
+                        <h2 class="text-white mb-4">Reflexión Personal</h2>
+                        <p class="text-white-50">
+                            Con este trabajo de práctica apliqué todos los conocimientos que había adquirido este año sobre html, aplicar mi creatividad al momento de desarrollar la página. A pesar de ser un trabajo muy largo y tedioso, aprendí mucho de el y estoy contenta con el resultado. 
+                        </p>
                     </div>
                 </div>
             </div>
@@ -153,10 +205,6 @@
                         <!-- https://startbootstrap.com/solution/contact-forms-->
                         <!-- to get an API token!-->
                         <form class="form-signup" id="contactForm" data-sb-form-api-token="API_TOKEN">
-                             <!-- nombresection-->
-                            <div class="row input-group1">
-                                <div class="col"><input class="form-control" id="nameid" type="name" placeholder="Ingresa tu nombre..." aria-label="Ingresa tu nombre..." data-sb-validations="required,name" /></div>
-                            </div>
                             <!-- Email address input-->
                             <div class="row input-group-newsletter">
                                 <div class="col"><input class="form-control" id="emailAddress" type="email" placeholder="Ingresa tu correo electrónico..." aria-label="Ingresa tu correo electrónico..." data-sb-validations="required,email" /></div>
@@ -228,11 +276,10 @@
         <!-- Footer-->
         <footer class="footer bg-black small text-center text-white-50">
             <div class="container px-4 px-lg-5">Copyright &copy; Your Website 2021</div> 
-            <a href="https://startbootstrap.com/previews/grayscale">Plantilla utilizada</a>
-            <div class="container px-4 px-lg-5">Images from: &copy; 
-                <a href="https://www.pinterest.ca/">
-                <a href="https://www.pexels.com/es-es/">
-            </div> 
+            <a href="/3startbootstrap-grayscale-gh-pages/plantilla-original/index-original.html">Plantilla utilizada</a>
+            <div class="container px-4 px-lg-5">Images from:</div>
+                    <a href="https://www.pinterest.ca/">Pinterest</a>
+                    <a href="https://www.pexels.com/es-es/">Pexels</a>
         </footer>
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
